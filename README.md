@@ -1,20 +1,17 @@
 # SLIM 4 - API SKELETON
+Modelo padrão para projeto API - [Slim PHP micro framework](https://www.slimframework.com).
 
-Useful skeleton for RESTful API development, using [Slim PHP micro framework](https://www.slimframework.com).
+Used technologies: `PHP, Slim 4, MySQL,,PHP-DI, Eloquent ORM, PHPUnit, env var, Docker & Docker Compose`.
 
-Used technologies: `PHP, Slim 4, MySQL, PHPUnit, env var, Docker & Docker Compose`.
+## INSTALAÇÃO RÁPIDA:
 
-## QUICK INSTALL:
-
-### Pre Requisite:
+### Pré-requisito:
 
 - PHP.
 - Composer.
 - MySQL/MariaDB.
 
-## Features
-
-This project is based on best practice and industry standards:
+## Recursos
 
 * Slim php 4.3
 * Eloquent ORM 6.15
@@ -26,7 +23,7 @@ This project is based on best practice and industry standards:
 
 ### With Composer:
 
-You can create a new project running the following commands:
+Você pode criar um novo projeto executando os seguintes comandos:
 
 ```bash
 $ composer create-project maurobonfietti/slim4-api-skeleton [my-api-name]
@@ -37,11 +34,11 @@ $ composer start
 ```
 
 
-#### Configure your connection to MySQL Server:
+#### Configure sua conexão com o MySQL Server:
 
-By default, the API use a MySQL Database.
+Por padrão, a API usa um banco de dados MySQL.
 
-You can check and edit this configuration in your `.env` file:
+Você pode verificar e editar esta configuração no seu arquivo `.env`:
 
 ```
 DB_HOST='127.0.0.1'
@@ -51,7 +48,7 @@ DB_PASS='yourMySqlPassword'
 ```
 
 
-## DOCKER READY:
+## DOCKER (Opcional):
 
 If you like Docker, you can use this project with **docker** and **docker-compose**.
 
@@ -76,7 +73,7 @@ $ docker-compose down
 
 ## DOCUMENTATION:
 
-### DEFAULT ENDPOINTS:
+### ENDPOINTS PADRÃO:
 
 - Help: `GET /`
 
